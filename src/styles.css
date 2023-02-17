@@ -12,7 +12,11 @@ h1 {
   }
   body {
     margin: 2em;
+    background-image: linear-gradient(rgba(255,255, 255, 0.9), rgba(255, 255, 255, 0.1)),
+                      url("../src/assets/SuperheroBackground1.jpg");
+    background-repeat: no-repeat;
   }
+  
   body, input[type="text"], button {
     color: #333;
     font-family: Cambria, Georgia, serif;
@@ -30,16 +34,16 @@ h1 {
     margin-top: 1rem;
   }
   button:hover {
-    background-color: black;
-    color: white;
+    background-color: lightgray;
+    color: black;
   }
   button:disabled {
     background-color: #eee;
-    color: #aaa;
+    color: #bbb;
     cursor: auto;
   }
   
   /* everywhere else */
   * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
